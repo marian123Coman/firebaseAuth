@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: #0f0c29;
+  background: -webkit-linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  );
+  background: linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  );
+}
+
+.container1 {
+  padding-top: 300px;
+  height: 100vh;
+  background: #0f0c29;
+  background: -webkit-linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  );
+  background: linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  );
+}
+.welcome,
+.description,
+.login-text {
+  text-align: center;
+}
+
+.welcome {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: paleturquoise;
+  font-size: 35px;
+}
+
+.description {
+  font-size: 30px;
+  font-family: sans-serif;
+  color: paleturquoise;
+}
+
+.login-text {
+  font-size: 25px;
+  color: lightblue;
+  font-family: sans-serif;
+}
+
+.navbar {
+  background: #0f0c29;
+  background: -webkit-linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  );
+  background: linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  );
+  height: 100px;
+  line-height: 100px;
+  margin-bottom: 7rem;
+}
+.brand-logo h1 {
+   font-size: 25px;
+   color: salmon;
+   pointer-events: none;
+}
+#lista {
+   background: #302b63; 
+}
